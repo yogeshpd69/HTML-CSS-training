@@ -1,0 +1,128 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    
+}
+header{
+    padding: 20px;
+}
+header img{
+    height: 100px;
+    width: 150px;
+    display: block;
+}
+nav{
+    background-color: #ad8c42;
+}
+.menu{
+    float: left;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.search{
+    float: right;
+}
+.search input{
+    padding: 5px;
+    margin: 2px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-image:url(../images/icon.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.clear{
+    clear: both;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+.info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    background-color: blue;
+    padding: 20px;
+}
+.info h2{
+    color: wheat;
+    font-size: 20px;
+    font-family:cursive;
+}
+.info span{
+    font-style: italic;
+    color: #f1f1f1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+}
+.info a{
+    margin: 10px 0;
+    background-color: aqua;
+    color: black;
+    padding: 15px 2opx;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+.box{
+    position: relative;
+    background-color: green;
+    height: 300px;
+    width: 33%;
+}
+.box img{
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+.box h3{
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+.hot,.stocked,.discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px, 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.hot{
+    background-color: red;
+    color: white;
+}
+.stocked{
+    background-color: green;
+    color: white;
+}
+.discount{
+    background-color: yellow;
+    color: white;
+}
